@@ -1,0 +1,13 @@
+train: ../train/images
+val: ../valid/images
+test: ../test/images
+
+nc: 1
+names: ['fire']
+
+roboflow:
+  workspace: your-workspace
+  project: fire-smoke-detection-v2
+  version: 1
+  license: MIT
+  url: https://universe.roboflow.com/your-workspace/fire-smoke-detection-v2/dataset/1
